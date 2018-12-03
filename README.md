@@ -21,9 +21,9 @@ Data/
 - dev_correction_results.txt 
 
 Each line in the data file contains a word, optionally it’s correction and the error category. 
-  ● Each line in `train.txt` is of the form - Word [Correction] [ErrorCategory] 
-  ● Each line in `dev.txt` is of the form - Word 
-  ● Whereas, each line in `dev_results.txt` is of the form - Word [Error Category] 
+  - Each line in `train.txt` is of the form - Word [Correction] [ErrorCategory] 
+  - Each line in `dev.txt` is of the form - Word 
+  - Whereas, each line in `dev_results.txt` is of the form - Word [Error Category] 
 
 Following instances occur in the files 
   ● If the correction replaces the original text at the given location, it should fix the grammatical error. 
