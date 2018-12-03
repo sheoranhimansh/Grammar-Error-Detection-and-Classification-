@@ -54,13 +54,13 @@ Following instances occur in the files
   4) In some sentences, corrections happen on a span of tokens. In this case, corrections and its types repeat until the phrase      with the error ends. 
      In this example, corrections for on, its, way, to are same. This means that the phrase “on its way to” must be replaced          with the correction “its process of” to fix the grammatical error. 
       - china 
-- has 
-- been 
-- eagerly 
-- speeding 
-- up 
-- on its process of Wci 
-- its its process of Wci 
-- way its process of Wci 
-- to its process of Wci 
-- industrialization 
+      - has 
+      - been 
+      - eagerly 
+      - speeding 
+      - up 
+      - on its process of Wci 
+      - its its process of Wci 
+      - way its process of Wci 
+      - to its process of Wci 
+      - industrialization 
