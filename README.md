@@ -26,7 +26,7 @@ Each line in the data file contains a word, optionally it’s correction and the
   - Whereas, each line in `dev_results.txt` is of the form - Word [Error Category] 
 
 Following instances occur in the files 
-  ● If the correction replaces the original text at the given location, it should fix the grammatical error. 
+  - If the correction replaces the original text at the given location, it should fix the grammatical error. 
     ○ Example 
       ■ there 
       ■ are is SVA 
@@ -35,7 +35,7 @@ Following instances occur in the files
       ■ spaces space Nn 
       ■ for 
       ■ us 
-  ● But If the correction is `-`, deletion of Word should fix the grammatical error. 
+  - But If the correction is `-`, deletion of Word should fix the grammatical error. 
     ○ Example 
       ■ by 
       ■ achieving 
@@ -45,13 +45,13 @@ Following instances occur in the files
       ■ of 
       ■ the - ArtOrDet 
       ■ land 
-  ● If the Word is `-` inserting the Correction in the original text would fix the error. 
+  - If the Word is `-` inserting the Correction in the original text would fix the error. 
     ○ Example 
       ■ this 
       ■ - has Vt 
       ■ caused 
       ■ problem problems Nn 
-  ● In some sentences, corrections happen on a span of tokens. In this case, corrections and its types repeat until the phrase      with the error ends. 
+  - In some sentences, corrections happen on a span of tokens. In this case, corrections and its types repeat until the phrase      with the error ends. 
     ○ In this example, corrections for on, its, way, to are same. This means that the phrase “on its way to” must be replaced          with the correction “its process of” to fix the grammatical error. 
       ■ china 
 ■ has 
