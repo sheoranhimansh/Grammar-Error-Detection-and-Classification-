@@ -27,7 +27,7 @@ Each line in the data file contains a word, optionally it’s correction and the
 
 Following instances occur in the files 
   - If the correction replaces the original text at the given location, it should fix the grammatical error. 
-    ○ Example 
+    -- Example 
       ■ there 
       ■ are is SVA 
       ■ very 
